@@ -48,10 +48,13 @@ Example:
 ```
 
 
-## Before using
+## ℹ️ Before using ℹ️
 
 
 - Ensure devices are reachable over the network on port 80.
+
+- Device credentials defined inside the script are default credentials!
+  ⚠️ You need to change the credentials for your own environment, or the script will not perform as it should!
 
 
 ## Usage
@@ -66,13 +69,6 @@ python mass-reboot.py
 
 
 The script will check the IP list, detect device type, reboot devices, and log the reboot durations in `results.txt`.
-
-
-## Configuration
-
-
-- Device credentials are defined inside the script and can be updated according to your environment (**the credentials that are in the script are default for all the models**).
-- The script currently supports: Grandstream, Snom, and Polycom (**Only supports the model Polycom Sound Point IP 331**).
 
 
 ## Tested phones
