@@ -54,7 +54,8 @@ Example:
 - Ensure devices are reachable over the network on port 80.
 
 - Device credentials defined inside the script are default credentials!
-  ⚠️ You need to change the credentials for your own environment, or the script will not perform as it should!
+
+⚠️ You need to change the credentials for your own environment, or the script will not perform as it should!
 
 
 ## Usage
